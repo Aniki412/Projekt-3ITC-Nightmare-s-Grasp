@@ -1,0 +1,2383 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.23f1 (1c4764c07fb4) revision 1853284'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16295 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/Lukas/Nightmare's Grasp
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+60726
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/Lukas/Nightmare's Grasp
+C:/Users/Lukas/Nightmare's Grasp
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [70196]  Target information:
+
+Player connection [70196]  * "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 961145159 [EditorId] 961145159 [Version] 1048832 [Id] WindowsEditor(7,Aniki-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [70196] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [70196] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 9.47 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.23f1 (1c4764c07fb4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Lukas/Nightmare's Grasp/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12115 MB
+    Driver:   32.0.15.6109
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007854 seconds.
+- Loaded All Assemblies, in  0.434 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.287 seconds
+Domain Reload Profiling: 718ms
+	BeginReloadAssembly (176ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (145ms)
+		LoadAssemblies (171ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (142ms)
+			TypeCache.Refresh (141ms)
+				TypeCache.ScanAssembly (126ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (287ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (250ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (157ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.359 seconds
+Refreshing native plugins compatible for Editor in 2.02 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.643 seconds
+Domain Reload Profiling: 1986ms
+	BeginReloadAssembly (707ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (547ms)
+		LoadAssemblies (442ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (205ms)
+			TypeCache.Refresh (152ms)
+				TypeCache.ScanAssembly (135ms)
+			BuildScriptInfoCaches (47ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (644ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (463ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (349ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 2.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4348 unused Assets / (0.9 MB). Loaded Objects now: 4935.
+Memory consumption went from 116.2 MB to 115.3 MB.
+Total: 6.233900 ms (FindLiveObjects: 0.453500 ms CreateObjectMapping: 0.500600 ms MarkObjects: 4.278500 ms  DeleteObjects: 1.000600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1324860.911622 seconds.
+  path: Assets/Assety/ZedDole.png
+  artifactKey: Guid(2956f75a9f660b7488fa2e653152ec07) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assety/ZedDole.png using Guid(2956f75a9f660b7488fa2e653152ec07) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1aecf9f97b03db32d40287913c20a38f') in 0.1637663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Animace/Idle/Vlevo/IdleVlevo.png
+  artifactKey: Guid(539518157777d9a4e80db6bd6a725dad) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animace/Idle/Vlevo/IdleVlevo.png using Guid(539518157777d9a4e80db6bd6a725dad) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '78e1374b4eb5ac1e9c70613202bb60a8') in 0.0328315 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_122.asset
+  artifactKey: Guid(f744c9a04ed0bd44dbf1cf969d0efebe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_122.asset using Guid(f744c9a04ed0bd44dbf1cf969d0efebe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3de9e1f5776fdcd32a8b2e0d690bb90d') in 0.0324351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_131.asset
+  artifactKey: Guid(c517f7f1c08460f4dab43c89c5e12a1f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_131.asset using Guid(c517f7f1c08460f4dab43c89c5e12a1f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8d4c8389e6607f6a757ed6195a634704') in 0.0139126 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_141.asset
+  artifactKey: Guid(e47fa887fe70444448744e9813f2aca9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_141.asset using Guid(e47fa887fe70444448744e9813f2aca9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6b2f83408c959a2c04d0558d0466f14e') in 0.0096613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_142.asset
+  artifactKey: Guid(211afabf12987a74a96c17f2a98f3ea2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_142.asset using Guid(211afabf12987a74a96c17f2a98f3ea2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a675a808e717e1e945c2122381f5d2c1') in 0.0110144 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_159.asset
+  artifactKey: Guid(363bfebbc01a170419a2df701d97608b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_159.asset using Guid(363bfebbc01a170419a2df701d97608b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e449d4faf1abdab358c159d378d63241') in 0.0126936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_107.asset
+  artifactKey: Guid(920615f339d7a064db4dd0ce9ce1d7bf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_107.asset using Guid(920615f339d7a064db4dd0ce9ce1d7bf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '64e4a2033c801d0a0517165000c5e0be') in 0.0119533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_104.asset
+  artifactKey: Guid(c652e11fa8269024194279e7de10e663) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_104.asset using Guid(c652e11fa8269024194279e7de10e663) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dcb393f208cd9a068795bf7ce147bacc') in 0.0116857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_123.asset
+  artifactKey: Guid(9d3644514e527ca4db37281ce196eeb6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_123.asset using Guid(9d3644514e527ca4db37281ce196eeb6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0420cad1467d66ffdf8c432e74d80926') in 0.0130622 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Animace/Idle/Vpred/IdleVpred.anim
+  artifactKey: Guid(513556109af34314fa0b2ba2f4deda92) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animace/Idle/Vpred/IdleVpred.anim using Guid(513556109af34314fa0b2ba2f4deda92) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f3a20ab0193658d39b8902bf4da8a482') in 0.0255287 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Animace/Chuze/Vpred/ChuzeVpred.anim
+  artifactKey: Guid(7aaa79490977ddf47b3a802578373191) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animace/Chuze/Vpred/ChuzeVpred.anim using Guid(7aaa79490977ddf47b3a802578373191) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '009cf617a72e427d7ccae3f2e16ef847') in 0.0141085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_110.asset
+  artifactKey: Guid(0fc9d635f37c5514d8b8899e245c4d76) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_110.asset using Guid(0fc9d635f37c5514d8b8899e245c4d76) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ca06c002f11abfcd37b06e8402141f06') in 0.0143049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3977e7c5597e255d9900fe5fafe10d72') in 0.0303326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_130.asset
+  artifactKey: Guid(6b865b7be952c874bb0a3b01258355e4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_130.asset using Guid(6b865b7be952c874bb0a3b01258355e4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd895405b51a8d4c1c730783e6b583041') in 0.0118516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_160.asset
+  artifactKey: Guid(11f48984bbd120d4483fdf2fe7a3fd4a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_160.asset using Guid(11f48984bbd120d4483fdf2fe7a3fd4a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1b8091d81ce31b98856592690016f4eb') in 0.0113082 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Animace/Chuze/Vlevo/ChuzeVlevo.anim
+  artifactKey: Guid(8e198b30e8035bd4a84092bb60546d61) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animace/Chuze/Vlevo/ChuzeVlevo.anim using Guid(8e198b30e8035bd4a84092bb60546d61) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7a46e4b932761dd797b8092de9fe472c') in 0.0143904 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000562 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_152.asset
+  artifactKey: Guid(8099acb8b765b9b4da1c953719bd7313) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_152.asset using Guid(8099acb8b765b9b4da1c953719bd7313) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '46cf6dd14c517cf1d626d68abf5fd1a4') in 0.013575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_115.asset
+  artifactKey: Guid(b74f1247f2057c6478aef060b9822762) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_115.asset using Guid(b74f1247f2057c6478aef060b9822762) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '53c2eae28b0aaf075db840737c649ad2') in 0.0139107 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_111.asset
+  artifactKey: Guid(9cd73c04e74dcf64d9444ec98cdf0b17) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_111.asset using Guid(9cd73c04e74dcf64d9444ec98cdf0b17) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fcafaedc1b8cd0730a83b2472344b4e0') in 0.0134947 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_134.asset
+  artifactKey: Guid(64638ace13c19434db7f579fec483ee1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_134.asset using Guid(64638ace13c19434db7f579fec483ee1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6af47ad93883b4ce4b227c93c44d6c32') in 0.01441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_102.asset
+  artifactKey: Guid(e9e799a4baf2aac4c9808b257b7baa02) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_102.asset using Guid(e9e799a4baf2aac4c9808b257b7baa02) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '49084946ef098ed8b0c92ba527546bf9') in 0.0117561 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tilemap/Free Japanese City.prefab
+  artifactKey: Guid(54f0354b47128b84e83807e9018b40b9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tilemap/Free Japanese City.prefab using Guid(54f0354b47128b84e83807e9018b40b9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0bdce10badae826cf312f3eaca1fdac2') in 0.0600439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_174.asset
+  artifactKey: Guid(b1543c5428c9aa94d939d58f8d8787dd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_174.asset using Guid(b1543c5428c9aa94d939d58f8d8787dd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5e70ec542da4021642ae5a4e9a622efc') in 0.0123274 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_17.asset
+  artifactKey: Guid(ff97d80e914c2934ebf516bc51d891f3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_17.asset using Guid(ff97d80e914c2934ebf516bc51d891f3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '939f8651f8f49db6922051cf7f1c1850') in 0.0110345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_183.asset
+  artifactKey: Guid(edf46ab5aea0b1e40b8640b5066ac0f1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_183.asset using Guid(edf46ab5aea0b1e40b8640b5066ac0f1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '403c8b6cf076a71bff057804738ccd8e') in 0.0111735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_178.asset
+  artifactKey: Guid(55f6c226edac3f0468161e39b343d168) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_178.asset using Guid(55f6c226edac3f0468161e39b343d168) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7178f4edabd25aed2853e510e9ad7c73') in 0.0149834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_192.asset
+  artifactKey: Guid(253005c62ed31294486e45484009bbc3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_192.asset using Guid(253005c62ed31294486e45484009bbc3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '848e2cc3c417bb94bd4573dad081bbdb') in 0.015924 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_198.asset
+  artifactKey: Guid(483bebd0cd1e6a74badf5af6f3e2e438) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_198.asset using Guid(483bebd0cd1e6a74badf5af6f3e2e438) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c62fa05a05ac7c1a7a8e4e2bd1d87813') in 0.0166246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_189.asset
+  artifactKey: Guid(8ad9a6232bcbef244ad696d9c883cf4c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_189.asset using Guid(8ad9a6232bcbef244ad696d9c883cf4c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '29189a0d073fd9b043e947b7361c9b0e') in 0.0173281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_187.asset
+  artifactKey: Guid(1ece7ba8c902f3646b7ac1a8c8a87d88) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_187.asset using Guid(1ece7ba8c902f3646b7ac1a8c8a87d88) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '61f52ac91228724a59fb6dfd050622a6') in 0.0195887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_158.asset
+  artifactKey: Guid(435334349ba37dd44a0a06a766cf891c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_158.asset using Guid(435334349ba37dd44a0a06a766cf891c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0892c0b54e99e4bf889e07fd1f44e7c6') in 0.0166796 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_166.asset
+  artifactKey: Guid(9c085aa6bcb35eb4a8d54f41d4ea7479) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_166.asset using Guid(9c085aa6bcb35eb4a8d54f41d4ea7479) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bdaef2eda8d0b3722f821a0cd8621464') in 0.0133698 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_124.asset
+  artifactKey: Guid(48f45388366e4fe4287636a07447c700) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_124.asset using Guid(48f45388366e4fe4287636a07447c700) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '13fa54742be49037029c4d124865814a') in 0.0135509 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assety/ZedsOknem.png
+  artifactKey: Guid(608dd6d4cd15448469a04d3a78c1803f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assety/ZedsOknem.png using Guid(608dd6d4cd15448469a04d3a78c1803f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2a602bd7891559dd482bfffa87033268') in 0.0221558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_175.asset
+  artifactKey: Guid(6a688f31a031ab44f864a91df9bdc8ea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_175.asset using Guid(6a688f31a031ab44f864a91df9bdc8ea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2f4b0f73c87ad795f17e6c58979db881') in 0.0130788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_161.asset
+  artifactKey: Guid(4c94fbfde295876418d8f0b540784383) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_161.asset using Guid(4c94fbfde295876418d8f0b540784383) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7bfc80c865abdd54f92093b4a22a1035') in 0.0131343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_112.asset
+  artifactKey: Guid(0bd4175db2e6d42449bbe687ebb5d256) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_112.asset using Guid(0bd4175db2e6d42449bbe687ebb5d256) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bae71bc7c5fc48df55671f2cb8c2832f') in 0.0154182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_145.asset
+  artifactKey: Guid(cd223e33f9d1d8445b06bfc5f31fca27) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_145.asset using Guid(cd223e33f9d1d8445b06bfc5f31fca27) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f8667ec128e19adad1268cf749319734') in 0.0152903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tilemap/Tilemap.png
+  artifactKey: Guid(e09a4527e4f1271488fac58fca49fd4b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tilemap/Tilemap.png using Guid(e09a4527e4f1271488fac58fca49fd4b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eb11db0c755c760e9988ed49c319f0f3') in 0.7369789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 400
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_263.asset
+  artifactKey: Guid(d71048302f53701489f26c6713755c28) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_263.asset using Guid(d71048302f53701489f26c6713755c28) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'db75b7f31a6114e152df035476f0ce8c') in 0.0137524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_25.asset
+  artifactKey: Guid(8572394bdaac2f944867bf37bb306ab7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_25.asset using Guid(8572394bdaac2f944867bf37bb306ab7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '23a90fd5011529e72ef6d63173c4793c') in 0.0130844 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_264.asset
+  artifactKey: Guid(e0f66290d5b9d964c8817dd574f35ff9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_264.asset using Guid(e0f66290d5b9d964c8817dd574f35ff9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd4a6c3b0906bc3906c85ca0c9967efd5') in 0.0152339 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_251.asset
+  artifactKey: Guid(37b3ff1d9786d0c46bc412e7cc524040) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_251.asset using Guid(37b3ff1d9786d0c46bc412e7cc524040) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '465a5f8b997213a2ead197597d537f85') in 0.0139416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_247.asset
+  artifactKey: Guid(0f25702514d56934f80c8c165efb5915) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_247.asset using Guid(0f25702514d56934f80c8c165efb5915) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0af7de512e31664d1d8bd0ff8c81001c') in 0.0171311 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_252.asset
+  artifactKey: Guid(5f06de8f2178d8043a5eeadd7e894da2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_252.asset using Guid(5f06de8f2178d8043a5eeadd7e894da2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1d7fb82d0f7d41e3c0cf3f92fce72ae2') in 0.0153767 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_249.asset
+  artifactKey: Guid(e88d04d69cca2a745ae8b31f6cba4d9a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_249.asset using Guid(e88d04d69cca2a745ae8b31f6cba4d9a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3918bf929987dcc52126e25906e79823') in 0.0145012 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_250.asset
+  artifactKey: Guid(5128f5773edf43f4c90f810e702324d9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_250.asset using Guid(5128f5773edf43f4c90f810e702324d9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '337de108422568dd6512680fa2a3ea50') in 0.0147258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_253.asset
+  artifactKey: Guid(1fd88322dff3c00438a16f7afb9ea57b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_253.asset using Guid(1fd88322dff3c00438a16f7afb9ea57b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '80ed56bcfa73e6c19ffbfe7eaa2d7b7d') in 0.0139709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_271.asset
+  artifactKey: Guid(1caf911b85612bc4fbdc8d8342b14d14) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_271.asset using Guid(1caf911b85612bc4fbdc8d8342b14d14) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '84c451568231e6e4649ae16a609fb4ed') in 0.0142291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_223.asset
+  artifactKey: Guid(1e4602ba5e98e3d41bd315a43035e380) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_223.asset using Guid(1e4602ba5e98e3d41bd315a43035e380) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '87406ca996121403d5c6671fb720e003') in 0.0130277 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_265.asset
+  artifactKey: Guid(c666d3ba216d11643bfc546194e5c4f5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_265.asset using Guid(c666d3ba216d11643bfc546194e5c4f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '76bb33a817bb12cf826e4f6b55cd225d') in 0.0123267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_238.asset
+  artifactKey: Guid(8de5ccfafb633af48a313b2ab1a5a5bc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_238.asset using Guid(8de5ccfafb633af48a313b2ab1a5a5bc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '77fe4e6cb9ad9045bd9c205f89449500') in 0.0131118 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_23.asset
+  artifactKey: Guid(50b08fb59ab1b5f4683755c820513271) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_23.asset using Guid(50b08fb59ab1b5f4683755c820513271) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1132d446b427a6077cd791463736fb0f') in 0.0147254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_255.asset
+  artifactKey: Guid(f710370ff0776c14ea9602450ce3f7b4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_255.asset using Guid(f710370ff0776c14ea9602450ce3f7b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f008030b1d2321f90a765e58006c326f') in 0.0126302 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_108.asset
+  artifactKey: Guid(12d7c83bb84dd4742b30de312e0a42e5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_108.asset using Guid(12d7c83bb84dd4742b30de312e0a42e5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e5a3efe37c6d8d8bef74694e613dcfd9') in 0.0121191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_148.asset
+  artifactKey: Guid(a14799f28b5ce6540b2cf96b93c23712) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_148.asset using Guid(a14799f28b5ce6540b2cf96b93c23712) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4793b7e8fec6de2dd82379b68124feb9') in 0.0128104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_137.asset
+  artifactKey: Guid(6f70471b619a32e4e82b6f2f75e649b9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_137.asset using Guid(6f70471b619a32e4e82b6f2f75e649b9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cf9dd58df7c4b2a15114478740fb3892') in 0.0113845 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Animace/Chuze/Vzad/ChuzeVzad.anim
+  artifactKey: Guid(713f34509d6b92c41a9415bbe09036be) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animace/Chuze/Vzad/ChuzeVzad.anim using Guid(713f34509d6b92c41a9415bbe09036be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5f33a3a3e80ed2f0420caf181a597e5a') in 0.0113358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_125.asset
+  artifactKey: Guid(478d675e7ccb1834c8af8f0b4fab853a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_125.asset using Guid(478d675e7ccb1834c8af8f0b4fab853a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '97ed02326a0edbff10b795211c513feb') in 0.0133068 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_168.asset
+  artifactKey: Guid(c7da162a23241c044b1390214a4913e1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_168.asset using Guid(c7da162a23241c044b1390214a4913e1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c0e75e7367fe1719e9465fbc2e819617') in 0.0112349 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_248.asset
+  artifactKey: Guid(604cdfe9f7ec03c4a89684fa936fb901) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_248.asset using Guid(604cdfe9f7ec03c4a89684fa936fb901) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'be74b9035217e7d28181e248f5bcd4cf') in 0.0122086 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_13.asset
+  artifactKey: Guid(13633ccc60c6f834984b8158184b5169) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_13.asset using Guid(13633ccc60c6f834984b8158184b5169) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5fdde7548e879dbec60ac6f435ed630e') in 0.0141085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_149.asset
+  artifactKey: Guid(7adccd87923713b4485559cef39544a9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_149.asset using Guid(7adccd87923713b4485559cef39544a9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5d3dc33d71f0d9eb349eaf6f24196888') in 0.0115791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_203.asset
+  artifactKey: Guid(379491ae75c66b6468e3ec057808827a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_203.asset using Guid(379491ae75c66b6468e3ec057808827a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3dc83364e08bbb77912f9d96ed862788') in 0.012307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assety/ZedVlevo.png
+  artifactKey: Guid(f832db0b474c6c142a7c4f41ecf8c1d5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assety/ZedVlevo.png using Guid(f832db0b474c6c142a7c4f41ecf8c1d5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8f84a165e471b0d4ec3e1ce9a89877bd') in 0.0182795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_120.asset
+  artifactKey: Guid(9cfeb09a4ce86d94cbd96308693e0b0a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_120.asset using Guid(9cfeb09a4ce86d94cbd96308693e0b0a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9baded7d434672535012ed675e2b10de') in 0.01282 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_11.asset
+  artifactKey: Guid(3794602b7fe37ba4883ae9da57590ef3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_11.asset using Guid(3794602b7fe37ba4883ae9da57590ef3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2c0dc70254c9b06645efa0b38673041f') in 0.0120405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Animace/Chuze/Vlevo/Character.controller
+  artifactKey: Guid(9cbf67f56a6579944812b62207328c5b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animace/Chuze/Vlevo/Character.controller using Guid(9cbf67f56a6579944812b62207328c5b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6fdc1eb9961a17a50a1f5552c4f95e46') in 0.0162828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_151.asset
+  artifactKey: Guid(3b9ee2435011f3447a6fc1105dba3ee0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_151.asset using Guid(3b9ee2435011f3447a6fc1105dba3ee0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '953f9067ec11bbaebb74371bb00b5dc7') in 0.0111098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_103.asset
+  artifactKey: Guid(2275d9317b1e5314c96eea8375ae914d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_103.asset using Guid(2275d9317b1e5314c96eea8375ae914d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '799c8048238b6729bfd731cded804c22') in 0.010574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_156.asset
+  artifactKey: Guid(a6f72e7b014f3a64b8baf99f70b20311) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_156.asset using Guid(a6f72e7b014f3a64b8baf99f70b20311) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '05e76c45f9a01cc97075b3ff2cceea8d') in 0.0116876 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_165.asset
+  artifactKey: Guid(fd8972b40bc8df8459ddb34183088cf9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_165.asset using Guid(fd8972b40bc8df8459ddb34183088cf9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e5b505c27e5307bd7a47ec457f9dd642') in 0.0114269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_21.asset
+  artifactKey: Guid(f6ce9965216c7c64682e64cd394005a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_21.asset using Guid(f6ce9965216c7c64682e64cd394005a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c46d5c776e59d94bec9a6130de147c35') in 0.0116627 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_172.asset
+  artifactKey: Guid(373fd18081e131b4cbf00c8f229f7250) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_172.asset using Guid(373fd18081e131b4cbf00c8f229f7250) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1234c1b4b56cc1c43c1ab9a362262e40') in 0.012113 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_269.asset
+  artifactKey: Guid(c94cad8263e84f647b9ab0cb7dc6f567) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_269.asset using Guid(c94cad8263e84f647b9ab0cb7dc6f567) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b8232a8011f543c37e8fd102b55ac133') in 0.0116591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_287.asset
+  artifactKey: Guid(22b689c21b0ac394dbca6fa2c463539d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_287.asset using Guid(22b689c21b0ac394dbca6fa2c463539d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8034bf1dd0e89622be6052205050a85e') in 0.0119181 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_307.asset
+  artifactKey: Guid(5216201d1109aa04194dd40e8e9fbd43) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_307.asset using Guid(5216201d1109aa04194dd40e8e9fbd43) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9bf0b3f86c741a02fdfeaaf56acb5890') in 0.0113734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_308.asset
+  artifactKey: Guid(a1bddb8f77d2af247a7ea7fa2ea53fa9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_308.asset using Guid(a1bddb8f77d2af247a7ea7fa2ea53fa9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'de80d51c2bcd76de24d995af28a3e8f4') in 0.0129697 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_284.asset
+  artifactKey: Guid(e8150bbd40b029644a7af1a3b54fd2a3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_284.asset using Guid(e8150bbd40b029644a7af1a3b54fd2a3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5221e050fd2049f2a1b019bf307815db') in 0.009176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_319.asset
+  artifactKey: Guid(60d2d7f4bc7b55d4eb3755c6d5af7b74) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_319.asset using Guid(60d2d7f4bc7b55d4eb3755c6d5af7b74) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5fbf81c6e20fd71e5fb5367c0368170a') in 0.0120883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010367 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_278.asset
+  artifactKey: Guid(a08ee744463d61549837baeb73189163) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_278.asset using Guid(a08ee744463d61549837baeb73189163) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3f7424ff3dd87adaf1ddd144b3105158') in 0.012231 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_305.asset
+  artifactKey: Guid(77b5ba3a47364ce4390c126a1641e3e5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_305.asset using Guid(77b5ba3a47364ce4390c126a1641e3e5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f42119cc1b3a17f53c78e373732666c2') in 0.0125459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_310.asset
+  artifactKey: Guid(dbad4c0e023ae8b4c8fa2911e2f944da) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_310.asset using Guid(dbad4c0e023ae8b4c8fa2911e2f944da) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5847fc87fd97390c45556da76a5d9d1a') in 0.0130456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_303.asset
+  artifactKey: Guid(5c73746acc31e9e44ac6a44a3c29b8f1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_303.asset using Guid(5c73746acc31e9e44ac6a44a3c29b8f1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '491abf4e5443d88a4c94887eac2a7d89') in 0.0122984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_298.asset
+  artifactKey: Guid(67c87538ae4cc334d85fb93682c545a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_298.asset using Guid(67c87538ae4cc334d85fb93682c545a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9ead261a2e7a22ad8ba7968275183fce') in 0.0120673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_296.asset
+  artifactKey: Guid(749e312501f65cd4fb00c7fdc3f95b7c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_296.asset using Guid(749e312501f65cd4fb00c7fdc3f95b7c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '79122a974e04328bde0120e1513a30dd') in 0.0120548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_321.asset
+  artifactKey: Guid(102dfc62f3b78af4eb09321657b1cc85) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_321.asset using Guid(102dfc62f3b78af4eb09321657b1cc85) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b51d74d9590acce01a8422a9e27933b0') in 0.0122877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_273.asset
+  artifactKey: Guid(ef908189c8d265e41aecc03138c8f034) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_273.asset using Guid(ef908189c8d265e41aecc03138c8f034) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3f681ab0a488f2167e0770b2c4644bd9') in 0.0112305 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_288.asset
+  artifactKey: Guid(4fdb2f5196c71884596987b32f2557f6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_288.asset using Guid(4fdb2f5196c71884596987b32f2557f6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '33c02697f5fb68df9341530ca42f4f3c') in 0.0116251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_337.asset
+  artifactKey: Guid(a965ba053c039d648844182d0ed76857) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_337.asset using Guid(a965ba053c039d648844182d0ed76857) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4542751012c5b6f2f1cad7c669658165') in 0.0110297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_286.asset
+  artifactKey: Guid(8e693a10658f4de4991588d03f4c0eb4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_286.asset using Guid(8e693a10658f4de4991588d03f4c0eb4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '79b74309d62f01afc04639bef8aff458') in 0.0130276 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_338.asset
+  artifactKey: Guid(750290840a743c54faf4e25b24407daf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_338.asset using Guid(750290840a743c54faf4e25b24407daf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f175d1269dc91867a808c5beeaec3f8c') in 0.0112354 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_322.asset
+  artifactKey: Guid(6cce2fcac22c7264eb58de4d0a49fcc6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_322.asset using Guid(6cce2fcac22c7264eb58de4d0a49fcc6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '05aab78c4c6bbe73bb420caefec65cd3') in 0.0123319 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_309.asset
+  artifactKey: Guid(9d05893ef9c3fae4b80a8fbb67635265) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_309.asset using Guid(9d05893ef9c3fae4b80a8fbb67635265) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9912fb2b9558fc7371062c36ee2776b4') in 0.0164684 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_29.asset
+  artifactKey: Guid(2d274eb2db9f3e64a930f728957a4007) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_29.asset using Guid(2d274eb2db9f3e64a930f728957a4007) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '416b5a4449f1f2de89c208c26081e918') in 0.0120619 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_332.asset
+  artifactKey: Guid(cc74cb50b063a764e85c4ba128d0b680) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_332.asset using Guid(cc74cb50b063a764e85c4ba128d0b680) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a67286db08c8ae60f5924da65c716748') in 0.0138962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_289.asset
+  artifactKey: Guid(097855495c931e247a60567965039905) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_289.asset using Guid(097855495c931e247a60567965039905) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '276b5b9e438f9eb5e5a407a6035a4937') in 0.0117794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_294.asset
+  artifactKey: Guid(c7dda1097875a354bb38d7a41d0d1752) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_294.asset using Guid(c7dda1097875a354bb38d7a41d0d1752) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9c8a1dd9c2aa843aff623d0d05c48b24') in 0.0116462 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_304.asset
+  artifactKey: Guid(b3ab1b8ccdb200240a1c8916122ffe59) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_304.asset using Guid(b3ab1b8ccdb200240a1c8916122ffe59) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '217afbf2cde2af894539af72260b2c1f') in 0.0141756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_314.asset
+  artifactKey: Guid(53b683051b4fa684cab88989120de1cf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_314.asset using Guid(53b683051b4fa684cab88989120de1cf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2dc2adca203418382a127ff6f9c01354') in 0.0165007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_318.asset
+  artifactKey: Guid(5eeaf35b24bac2541a6800e54de71983) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_318.asset using Guid(5eeaf35b24bac2541a6800e54de71983) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dc219e4950f0af7ce51a862ea551a93c') in 0.0149979 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_333.asset
+  artifactKey: Guid(55e51b271a3d6a2479499636f4bb4ec5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_333.asset using Guid(55e51b271a3d6a2479499636f4bb4ec5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '82aaac3cba97fb42187a1373ba42287b') in 0.0155223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_277.asset
+  artifactKey: Guid(6d8f0fdabf721b3469843a2b2d22c7fb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_277.asset using Guid(6d8f0fdabf721b3469843a2b2d22c7fb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3ea44b213bc1b7bc940772bd295b8da5') in 0.0130993 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_323.asset
+  artifactKey: Guid(439005c88081cc64fad34c81dd920d59) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_323.asset using Guid(439005c88081cc64fad34c81dd920d59) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2d55b392b0b03a23b0f0b3e588e861b5') in 0.0130138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_33.asset
+  artifactKey: Guid(d25a9439f4c529244897fee841646768) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_33.asset using Guid(d25a9439f4c529244897fee841646768) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '16082efbb59f706ad302b622d65781b5') in 0.0145866 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_325.asset
+  artifactKey: Guid(c186a30eaf3333948a3cba47eb415d84) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_325.asset using Guid(c186a30eaf3333948a3cba47eb415d84) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c44afb5ceac02e657d3584e220045c36') in 0.011795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_282.asset
+  artifactKey: Guid(e7a4ed167ca6a8242891da895d411791) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_282.asset using Guid(e7a4ed167ca6a8242891da895d411791) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5dc2a312b1ca580e920e5fdbff425354') in 0.0168092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_335.asset
+  artifactKey: Guid(4cb83fb373452ec4e97ac88631c5b4d2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_335.asset using Guid(4cb83fb373452ec4e97ac88631c5b4d2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1f6679d53ced1cb15d9da1d8c5fa0d12') in 0.0146989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_285.asset
+  artifactKey: Guid(63a442300c75bd840887fe3f54c8d544) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_285.asset using Guid(63a442300c75bd840887fe3f54c8d544) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7d1546ca1764b144231b832f82b61326') in 0.0134782 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_311.asset
+  artifactKey: Guid(60e3c47611a489c4c85e2b9086812dda) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_311.asset using Guid(60e3c47611a489c4c85e2b9086812dda) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd3fda52c861d7c949f197ac55d094cb7') in 0.0138171 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_336.asset
+  artifactKey: Guid(4f8b3fef72b5fbd4ea0fd0289d3ff456) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_336.asset using Guid(4f8b3fef72b5fbd4ea0fd0289d3ff456) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7dce8285b542fdb4ccd9c387ce6ad55f') in 0.0134783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Animace/Idle/Vlevo/IdleVlevo.anim
+  artifactKey: Guid(eeaecc95b6c30bb4fa0b01f5f70dae53) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animace/Idle/Vlevo/IdleVlevo.anim using Guid(eeaecc95b6c30bb4fa0b01f5f70dae53) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ff5f5fb93bc89991400fe37267971666') in 0.0119488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_395.asset
+  artifactKey: Guid(dc66aa5414020d347b5c312d0cb06558) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_395.asset using Guid(dc66aa5414020d347b5c312d0cb06558) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1d026c8e45212fd8a54abfe40d0bdcde') in 0.0137411 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_38.asset
+  artifactKey: Guid(cb1d6913176241c4ab9bdca01ab98160) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_38.asset using Guid(cb1d6913176241c4ab9bdca01ab98160) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b3c9229350615c998880e7c878d08536') in 0.0139333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_373.asset
+  artifactKey: Guid(854d664d28393654ab557a2d17e869e0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_373.asset using Guid(854d664d28393654ab557a2d17e869e0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a2af8580a1e8e8081c671d9374acf504') in 0.0128211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_369.asset
+  artifactKey: Guid(2b6e605119b84ff4eb469b09a5792146) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_369.asset using Guid(2b6e605119b84ff4eb469b09a5792146) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '48aee11de1ec0e5097f0f88f03e98303') in 0.0130409 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_392.asset
+  artifactKey: Guid(9a26d4d628cceaf47addea8ab7c9e2da) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_392.asset using Guid(9a26d4d628cceaf47addea8ab7c9e2da) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '99e04d4c046a17798c805ca3b89595cc') in 0.0140872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_358.asset
+  artifactKey: Guid(8f532ca374f3d1648ba40335663c5f03) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_358.asset using Guid(8f532ca374f3d1648ba40335663c5f03) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9d985f003e67acac48f0b364752d7ccb') in 0.0117179 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_354.asset
+  artifactKey: Guid(ede17ec2eb6a75b41a3be484a6fc9ee9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_354.asset using Guid(ede17ec2eb6a75b41a3be484a6fc9ee9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '788e7baeb6dd627fbec73b5ddad71368') in 0.0125662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_394.asset
+  artifactKey: Guid(9c30b076d79cfdc4481013ee5d8e3ed2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_394.asset using Guid(9c30b076d79cfdc4481013ee5d8e3ed2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5a4e39f015b72fee16f7db7a9d1c2c7d') in 0.0122762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_347.asset
+  artifactKey: Guid(11003ffc7b793ae47a359fe9d18a2e4e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_347.asset using Guid(11003ffc7b793ae47a359fe9d18a2e4e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '694ef110884219d81fb0c3b74aa0bd1a') in 0.0130418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_388.asset
+  artifactKey: Guid(06015bb170e7cc24e92634e37886fc91) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_388.asset using Guid(06015bb170e7cc24e92634e37886fc91) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3018d6c8b005167005bd7be6b3211f86') in 0.0139461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_341.asset
+  artifactKey: Guid(0426a4382c307fe4c884c0aefe653e5c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_341.asset using Guid(0426a4382c307fe4c884c0aefe653e5c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5aa3978719041003c2e5ccf943e4b16a') in 0.017857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_4.asset
+  artifactKey: Guid(1fd997bd3981ff44daf6137fc9c9bddb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_4.asset using Guid(1fd997bd3981ff44daf6137fc9c9bddb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ce565dcd4ae91a0302b63f96ffd482ae') in 0.0184381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_349.asset
+  artifactKey: Guid(fa1f52fd416ea01418e794e29eea1d23) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_349.asset using Guid(fa1f52fd416ea01418e794e29eea1d23) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '37b2d71d3568b54f319c701a9d5d2e8c') in 0.0231389 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_352.asset
+  artifactKey: Guid(f42ac19d0f90a234188763242ab50a21) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_352.asset using Guid(f42ac19d0f90a234188763242ab50a21) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c4d2b3fc9b3676b194f35e47007e90f4') in 0.0118271 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_35.asset
+  artifactKey: Guid(602519a0f0b20c346b0ac1faa979ba17) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_35.asset using Guid(602519a0f0b20c346b0ac1faa979ba17) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8ec483aec4ee6426fc2866e63fa633ac') in 0.0131775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_368.asset
+  artifactKey: Guid(dd5e716e205f0754a9e1b207f8e9353a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_368.asset using Guid(dd5e716e205f0754a9e1b207f8e9353a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '73ec75bc41a5c00fe0e52cf6a61ae11f') in 0.0177082 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_386.asset
+  artifactKey: Guid(5fddd04deed9fa04b89ba946b21dc1a0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_386.asset using Guid(5fddd04deed9fa04b89ba946b21dc1a0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd21e32fd3a2c7b4f7875b7ac121c9bd4') in 0.0135953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_340.asset
+  artifactKey: Guid(93da4b5df12f9f34fadb0afed69e6548) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_340.asset using Guid(93da4b5df12f9f34fadb0afed69e6548) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b00c7583c9199323c00c1222ac80e24a') in 0.012737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_391.asset
+  artifactKey: Guid(4190bc49d56c48c42a957f677b212146) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_391.asset using Guid(4190bc49d56c48c42a957f677b212146) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '85fdef76984615aaf82a11085f2ec263') in 0.012936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_342.asset
+  artifactKey: Guid(672f6a5a8655c1248a1f597dec7e4d8d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_342.asset using Guid(672f6a5a8655c1248a1f597dec7e4d8d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dc6f7798dec0e2d86df4e990f535819a') in 0.0137675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_385.asset
+  artifactKey: Guid(ac1091a51c8383b4392e003b5483adfd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_385.asset using Guid(ac1091a51c8383b4392e003b5483adfd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '699a7f0a85ed1f3b64271c71b0c6a31f') in 0.0123416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_366.asset
+  artifactKey: Guid(19a3002da89b18c4699349c21cd5dc6e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_366.asset using Guid(19a3002da89b18c4699349c21cd5dc6e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5c2da0180017af900b072ab7693826b0') in 0.0137452 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_367.asset
+  artifactKey: Guid(0f0f9575a1f6bae4abfe9a53c8169bd2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_367.asset using Guid(0f0f9575a1f6bae4abfe9a53c8169bd2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1f3692bcb3425ceee6990b67b9795959') in 0.0124731 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_360.asset
+  artifactKey: Guid(3f339dd90b50c9245954847f34813d43) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_360.asset using Guid(3f339dd90b50c9245954847f34813d43) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f2d0c823b2c7a2ae036b3a8c5ea39b3a') in 0.0130939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_353.asset
+  artifactKey: Guid(0bc29153ceb4f594cad7c93013161783) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_353.asset using Guid(0bc29153ceb4f594cad7c93013161783) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd395192fa96e5e7a07fdc6db58b79146') in 0.012495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_345.asset
+  artifactKey: Guid(bf6bf6647955ac949bba24f2d2a5cfd1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_345.asset using Guid(bf6bf6647955ac949bba24f2d2a5cfd1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '526a25c144ee4e20e0cd71a7c2ed0af7') in 0.0129131 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_34.asset
+  artifactKey: Guid(31d4d2f034bb7c843b4be58381029d4c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_34.asset using Guid(31d4d2f034bb7c843b4be58381029d4c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5c0657892fe2f88a3028cb06543c0555') in 0.0134239 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_359.asset
+  artifactKey: Guid(7aace38252c33524b83eaa12173d435f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_359.asset using Guid(7aace38252c33524b83eaa12173d435f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9a31653da3ddd5229b6f2e0ea5e21ec1') in 0.0129337 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_355.asset
+  artifactKey: Guid(e23e5c2c7cb7b2f40a4435513cc07436) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_355.asset using Guid(e23e5c2c7cb7b2f40a4435513cc07436) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '14fe24114fa54746294e6b9d657f40dc') in 0.0130977 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_272.asset
+  artifactKey: Guid(47c66752741d52549b54eb0ab34d3236) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_272.asset using Guid(47c66752741d52549b54eb0ab34d3236) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '719b5e9368a028f2b413b32c20cd4fc5') in 0.0137375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_361.asset
+  artifactKey: Guid(5d1571b9c65a4af4394261c4eb4b62c3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_361.asset using Guid(5d1571b9c65a4af4394261c4eb4b62c3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a90b9eb6e41144d0b6870e9271dcf799') in 0.012893 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_389.asset
+  artifactKey: Guid(a000165ce4268434da262e8e45a6ebf7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_389.asset using Guid(a000165ce4268434da262e8e45a6ebf7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ce6ac4957ea3be97f6fe75f7428a8417') in 0.014664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_143.asset
+  artifactKey: Guid(f72cd926f8dabd54e91433e96600c22d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_143.asset using Guid(f72cd926f8dabd54e91433e96600c22d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6e6010d13d5089908d102a32b6ec3735') in 0.0131113 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_155.asset
+  artifactKey: Guid(153784304f137c7429ef1f183afebf86) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_155.asset using Guid(153784304f137c7429ef1f183afebf86) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0c517023c95f83aa03ee49deb002a85a') in 0.0117862 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_18.asset
+  artifactKey: Guid(3c2b358f0ffc11041998a4460f44f89a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_18.asset using Guid(3c2b358f0ffc11041998a4460f44f89a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6516bb4d8f86871980741d98775c3b34') in 0.0138225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_94.asset
+  artifactKey: Guid(6d57f9f8c1cfec3439202b811f0f462e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_94.asset using Guid(6d57f9f8c1cfec3439202b811f0f462e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9ac562acbd63719b70b00d6026a21238') in 0.0143295 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_76.asset
+  artifactKey: Guid(c5ec4a758ec2b4d4e9ad4d33c1bdaacc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_76.asset using Guid(c5ec4a758ec2b4d4e9ad4d33c1bdaacc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a4555f4fa34739dff132c24b9fc498e5') in 0.0129095 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_52.asset
+  artifactKey: Guid(8c6ded6c640433c45a5d85958e2f748d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_52.asset using Guid(8c6ded6c640433c45a5d85958e2f748d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '96987b6df4311fc68e34062c5ff82fb0') in 0.0142018 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_63.asset
+  artifactKey: Guid(a8f7eb44f47e50e4899fdd1b755dba7e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_63.asset using Guid(a8f7eb44f47e50e4899fdd1b755dba7e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '09db4227ffa21f176f680030a81873e9') in 0.0125554 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_51.asset
+  artifactKey: Guid(4f9b6a59302e58f4c87d98d44e68d749) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_51.asset using Guid(4f9b6a59302e58f4c87d98d44e68d749) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd8afc79cb61c87aeabe5f149ab1b595a') in 0.0153703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_8.asset
+  artifactKey: Guid(8e1b9ba5b036784429fe7ba187bfc814) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_8.asset using Guid(8e1b9ba5b036784429fe7ba187bfc814) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3b887709bf008296bc8da3c51b9fc476') in 0.0127987 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_7.asset
+  artifactKey: Guid(920995da5482b9f479ee4a9489cfe0cd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_7.asset using Guid(920995da5482b9f479ee4a9489cfe0cd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1e7a344020f14b6ec2249b786f31a6f5') in 0.0123099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_71.asset
+  artifactKey: Guid(b534d65f2515311479fdf96e20f8534f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_71.asset using Guid(b534d65f2515311479fdf96e20f8534f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '23b0df657fc0de3a286a07f461762cc4') in 0.0131497 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_46.asset
+  artifactKey: Guid(3cc154a3c44b2be44b03f72dfeb33701) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_46.asset using Guid(3cc154a3c44b2be44b03f72dfeb33701) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2be6474c4a37e678088723c6227b845d') in 0.0143989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_55.asset
+  artifactKey: Guid(f6003ad19fce9dd4fbc4d563c522eb85) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_55.asset using Guid(f6003ad19fce9dd4fbc4d563c522eb85) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0886b3afef08d48d2c994a56b0730a6a') in 0.0118281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_82.asset
+  artifactKey: Guid(fb320a5cbfb11534b9373848fb3c4076) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_82.asset using Guid(fb320a5cbfb11534b9373848fb3c4076) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6284e8f6cc415c21ffea64ba9ec7b35b') in 0.0137556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_6.asset
+  artifactKey: Guid(8c9a76519d7b4304fb754eaf98d626a1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_6.asset using Guid(8c9a76519d7b4304fb754eaf98d626a1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c6b65cf24c5dd8c24a370c509cdf18f5') in 0.0128501 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_72.asset
+  artifactKey: Guid(8e52ceddd9c39e04c8c539e2115a4af5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_72.asset using Guid(8e52ceddd9c39e04c8c539e2115a4af5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3c159f3c8e2119b76726ce285ec8590d') in 0.0132615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_66.asset
+  artifactKey: Guid(7ec896259ad9f674f99b8e721a5e1401) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_66.asset using Guid(7ec896259ad9f674f99b8e721a5e1401) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '725f8ba01e631ceedf57db93ca9a543b') in 0.0136004 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_98.asset
+  artifactKey: Guid(e15b0bfdbb9844046909be8a4b89b40d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_98.asset using Guid(e15b0bfdbb9844046909be8a4b89b40d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5118755d58980db9011cf8dd737a90b3') in 0.0127686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_97.asset
+  artifactKey: Guid(0398f7b8831a25346ada7c7fe326c088) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_97.asset using Guid(0398f7b8831a25346ada7c7fe326c088) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6f0575f3b99bcad9eb74a7461285d841') in 0.0121984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_79.asset
+  artifactKey: Guid(dc63e867ee91db945821289b324e05fa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_79.asset using Guid(dc63e867ee91db945821289b324e05fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '09178281b018a40bf2c6502f0af78bb7') in 0.0137306 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_87.asset
+  artifactKey: Guid(963a531eee353b847b7f56084062c767) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_87.asset using Guid(963a531eee353b847b7f56084062c767) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a3794daa8201c3bb1d0acfb64c18efd8') in 0.0143955 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_80.asset
+  artifactKey: Guid(1e5f7cf01baccaa499514f561f2b9695) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_80.asset using Guid(1e5f7cf01baccaa499514f561f2b9695) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6873160da75243d1706c822fa63e4a6d') in 0.0136205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_83.asset
+  artifactKey: Guid(8162ef7ee769ef94eb7ca4fd21fb85d3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_83.asset using Guid(8162ef7ee769ef94eb7ca4fd21fb85d3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd0021c55c3123a8a65c48b2f0662c93e') in 0.013449 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_57.asset
+  artifactKey: Guid(0b6a7ef804eb6fb47806949a1881bc9f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_57.asset using Guid(0b6a7ef804eb6fb47806949a1881bc9f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '477270198b5e18f232b8c2ef9f7c2504') in 0.0128616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_85.asset
+  artifactKey: Guid(cb1ca25488b9e254895feff45205bdcc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_85.asset using Guid(cb1ca25488b9e254895feff45205bdcc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c07339b1779b932c262bef6d39946b74') in 0.0137865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_92.asset
+  artifactKey: Guid(8522247e4b2ce7740829f180022843c9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_92.asset using Guid(8522247e4b2ce7740829f180022843c9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '476b3aeda64c906b5e9561b3b2487a7d') in 0.0138005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_96.asset
+  artifactKey: Guid(31dc051ee65775e4aba2853dd25e98ee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_96.asset using Guid(31dc051ee65775e4aba2853dd25e98ee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5e80635adebeaeac8136a9ab769148cc') in 0.1103175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_84.asset
+  artifactKey: Guid(8916f64fa2cb39847b7e7a3afaf91e48) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_84.asset using Guid(8916f64fa2cb39847b7e7a3afaf91e48) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '47f55581019e1f91cd3288efba10533f') in 0.0125917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_62.asset
+  artifactKey: Guid(414a549a86339a64e9e8a71e5ee495fd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_62.asset using Guid(414a549a86339a64e9e8a71e5ee495fd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7781ed19edbba50eff348722c011eaac') in 0.0140146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_73.asset
+  artifactKey: Guid(1ccf6f8be2da20e4796eac397ca0e5b8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_73.asset using Guid(1ccf6f8be2da20e4796eac397ca0e5b8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '011cd1867523abe649d9399628ae73f0') in 0.0137556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_70.asset
+  artifactKey: Guid(16f4e67f29fb09549ab4cf8fd1ebd5d6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_70.asset using Guid(16f4e67f29fb09549ab4cf8fd1ebd5d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '155029b2aa9e920d68e5d76d1777b659') in 0.0130203 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_61.asset
+  artifactKey: Guid(a4e7445aef955c7449e1b67f33c1564b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_61.asset using Guid(a4e7445aef955c7449e1b67f33c1564b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fa77796ef7882dcc55376adc05432df6') in 0.0125949 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_2.asset
+  artifactKey: Guid(c805a490b4fd6264a897c4a63defc780) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_2.asset using Guid(c805a490b4fd6264a897c4a63defc780) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ca2f22c9862e83ed2f38eb4a59bc0bd1') in 0.0141512 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_197.asset
+  artifactKey: Guid(6b659c84daf497e48b36630cab2e25c9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_197.asset using Guid(6b659c84daf497e48b36630cab2e25c9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b1dcb59cdf1c0596466234cc627933b6') in 0.0125632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_315.asset
+  artifactKey: Guid(5fc61e5d2a5209940af0a122866a11e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_315.asset using Guid(5fc61e5d2a5209940af0a122866a11e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b9f14d14545bebdf4f11fb7ba6b782be') in 0.0126052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_317.asset
+  artifactKey: Guid(3089014822b6fb14c832e88c3f98dde4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_317.asset using Guid(3089014822b6fb14c832e88c3f98dde4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '75a48cfcaf514263032a0ce391bd312e') in 0.0118871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_153.asset
+  artifactKey: Guid(dda403ddaad358f41ba1cf028e31b210) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_153.asset using Guid(dda403ddaad358f41ba1cf028e31b210) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cc001ee8d3037af90925f60417dcc983') in 0.0134186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_350.asset
+  artifactKey: Guid(1ecbc2ce6f025bf478ed255557b83317) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_350.asset using Guid(1ecbc2ce6f025bf478ed255557b83317) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '90a377df22319f9f161e00b72fb94c6d') in 0.012779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_229.asset
+  artifactKey: Guid(5e0bc66720869da44a3ee128b7ecd968) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_229.asset using Guid(5e0bc66720869da44a3ee128b7ecd968) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e3e19e6ccd61e3029756460f61070495') in 0.0129782 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_44.asset
+  artifactKey: Guid(2c56eff19d683d74ba85c26621b7a8b1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_44.asset using Guid(2c56eff19d683d74ba85c26621b7a8b1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e3edbbfea4b0dc5dbaee018306862dd3') in 0.0111687 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_182.asset
+  artifactKey: Guid(96b000aa751c37648a4170fcaf77e030) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_182.asset using Guid(96b000aa751c37648a4170fcaf77e030) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a03f22f0cd777710b8c8c83d7a7ffeb8') in 0.0126296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_256.asset
+  artifactKey: Guid(3027db730f082cb4ba81e022a23c8f4c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_256.asset using Guid(3027db730f082cb4ba81e022a23c8f4c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '923ba5f8d26677357037ad3523f98fd2') in 0.0125299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_357.asset
+  artifactKey: Guid(3a6758cc8ba3f1c41ba902fa9e805b66) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_357.asset using Guid(3a6758cc8ba3f1c41ba902fa9e805b66) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '823fb83833a96ae81bb89423031f237c') in 0.0126523 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_261.asset
+  artifactKey: Guid(9113e181d28433f44a48a5c95265c94a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_261.asset using Guid(9113e181d28433f44a48a5c95265c94a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd0308d02fa7d8bf09843d25635e46b3d') in 0.0117323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_184.asset
+  artifactKey: Guid(a3a55a54befecce4f967ea98fb3e42c6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_184.asset using Guid(a3a55a54befecce4f967ea98fb3e42c6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c2c375d70d9acec881165023fcd32758') in 0.0116795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_154.asset
+  artifactKey: Guid(de1b5b53f832aac40a155ee15ba949f1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gutty Kreum/Free Japanese City Game Assets/Tiles/Tilemap_154.asset using Guid(de1b5b53f832aac40a155ee15ba949f1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '885d94eed5fb6bb81de3be3cf4397214') in 0.0152656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.703 seconds
+Refreshing native plugins compatible for Editor in 1.97 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.882 seconds
+Domain Reload Profiling: 1581ms
+	BeginReloadAssembly (206ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (408ms)
+		LoadAssemblies (367ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (146ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (133ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (882ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (616ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (458ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 2.48 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4346 unused Assets / (0.8 MB). Loaded Objects now: 4940.
+Memory consumption went from 113.2 MB to 112.4 MB.
+Total: 7.675300 ms (FindLiveObjects: 1.115300 ms CreateObjectMapping: 0.278100 ms MarkObjects: 5.221100 ms  DeleteObjects: 1.059800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.657 seconds
+Refreshing native plugins compatible for Editor in 1.73 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.738 seconds
+Domain Reload Profiling: 1391ms
+	BeginReloadAssembly (198ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (378ms)
+		LoadAssemblies (336ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (138ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (126ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (738ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (509ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (373ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 2.06 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4346 unused Assets / (0.9 MB). Loaded Objects now: 4942.
+Memory consumption went from 113.2 MB to 112.3 MB.
+Total: 6.977400 ms (FindLiveObjects: 0.562800 ms CreateObjectMapping: 0.234500 ms MarkObjects: 5.138900 ms  DeleteObjects: 1.040500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.677 seconds
+Refreshing native plugins compatible for Editor in 2.01 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.657 seconds
+Domain Reload Profiling: 1330ms
+	BeginReloadAssembly (202ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (386ms)
+		LoadAssemblies (331ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (160ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (144ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (657ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (454ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (334ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 2.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4346 unused Assets / (1.1 MB). Loaded Objects now: 4944.
+Memory consumption went from 113.2 MB to 112.1 MB.
+Total: 6.603100 ms (FindLiveObjects: 0.478400 ms CreateObjectMapping: 0.217500 ms MarkObjects: 4.722200 ms  DeleteObjects: 1.184000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.641 seconds
+Refreshing native plugins compatible for Editor in 2.33 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.767 seconds
+Domain Reload Profiling: 1404ms
+	BeginReloadAssembly (197ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (364ms)
+		LoadAssemblies (333ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (132ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (121ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (768ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (540ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (406ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 2.18 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4346 unused Assets / (1.1 MB). Loaded Objects now: 4946.
+Memory consumption went from 113.2 MB to 112.2 MB.
+Total: 7.564000 ms (FindLiveObjects: 0.565000 ms CreateObjectMapping: 0.274900 ms MarkObjects: 5.465500 ms  DeleteObjects: 1.257800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.681 seconds
+Refreshing native plugins compatible for Editor in 2.47 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.694 seconds
+Domain Reload Profiling: 1371ms
+	BeginReloadAssembly (213ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (386ms)
+		LoadAssemblies (342ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (134ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (694ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (498ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (375ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 1.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4346 unused Assets / (1.0 MB). Loaded Objects now: 4948.
+Memory consumption went from 113.2 MB to 112.3 MB.
+Total: 6.422100 ms (FindLiveObjects: 0.457800 ms CreateObjectMapping: 0.215700 ms MarkObjects: 4.821800 ms  DeleteObjects: 0.925900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.677 seconds
+Refreshing native plugins compatible for Editor in 1.90 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.778 seconds
+Domain Reload Profiling: 1450ms
+	BeginReloadAssembly (209ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (389ms)
+		LoadAssemblies (347ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (147ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (134ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (779ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (548ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (413ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 2.23 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4346 unused Assets / (0.9 MB). Loaded Objects now: 4950.
+Memory consumption went from 113.2 MB to 112.3 MB.
+Total: 6.338400 ms (FindLiveObjects: 0.447100 ms CreateObjectMapping: 0.230100 ms MarkObjects: 4.653500 ms  DeleteObjects: 1.006800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.740 seconds
+Refreshing native plugins compatible for Editor in 2.34 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.804 seconds
+Domain Reload Profiling: 1540ms
+	BeginReloadAssembly (269ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (390ms)
+		LoadAssemblies (409ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (149ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (134ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (804ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (555ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (396ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 2.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4346 unused Assets / (0.9 MB). Loaded Objects now: 4952.
+Memory consumption went from 113.2 MB to 112.3 MB.
+Total: 6.987200 ms (FindLiveObjects: 0.667800 ms CreateObjectMapping: 0.351400 ms MarkObjects: 4.959000 ms  DeleteObjects: 1.008100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.664 seconds
+Refreshing native plugins compatible for Editor in 2.04 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.699 seconds
+Domain Reload Profiling: 1360ms
+	BeginReloadAssembly (207ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (373ms)
+		LoadAssemblies (340ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (136ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (123ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (699ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (484ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (357ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 2.07 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4346 unused Assets / (0.8 MB). Loaded Objects now: 4954.
+Memory consumption went from 113.2 MB to 112.4 MB.
+Total: 6.815300 ms (FindLiveObjects: 0.632700 ms CreateObjectMapping: 0.246900 ms MarkObjects: 5.015800 ms  DeleteObjects: 0.918900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.666 seconds
+Refreshing native plugins compatible for Editor in 2.63 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.773 seconds
+Domain Reload Profiling: 1435ms
+	BeginReloadAssembly (203ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (380ms)
+		LoadAssemblies (333ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (145ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (132ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (773ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (535ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (397ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 2.16 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4346 unused Assets / (0.9 MB). Loaded Objects now: 4956.
+Memory consumption went from 113.3 MB to 112.3 MB.
+Total: 6.646600 ms (FindLiveObjects: 0.488800 ms CreateObjectMapping: 0.242700 ms MarkObjects: 4.636600 ms  DeleteObjects: 1.277500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.650 seconds
+Refreshing native plugins compatible for Editor in 2.23 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.730 seconds
+Domain Reload Profiling: 1375ms
+	BeginReloadAssembly (201ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (368ms)
+		LoadAssemblies (342ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (131ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (117ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (730ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (521ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (389ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 2.28 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4346 unused Assets / (1.1 MB). Loaded Objects now: 4958.
+Memory consumption went from 113.3 MB to 112.1 MB.
+Total: 8.184200 ms (FindLiveObjects: 0.706600 ms CreateObjectMapping: 0.301900 ms MarkObjects: 5.810100 ms  DeleteObjects: 1.364600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.667 seconds
+Refreshing native plugins compatible for Editor in 2.00 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.755 seconds
+Domain Reload Profiling: 1420ms
+	BeginReloadAssembly (213ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (380ms)
+		LoadAssemblies (341ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (147ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (132ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (756ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (525ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (384ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 2.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4346 unused Assets / (0.8 MB). Loaded Objects now: 4960.
+Memory consumption went from 113.3 MB to 112.4 MB.
+Total: 6.726400 ms (FindLiveObjects: 0.511300 ms CreateObjectMapping: 0.238100 ms MarkObjects: 5.082000 ms  DeleteObjects: 0.894000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.688 seconds
+Refreshing native plugins compatible for Editor in 2.07 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.768 seconds
+Domain Reload Profiling: 1452ms
+	BeginReloadAssembly (202ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (394ms)
+		LoadAssemblies (340ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (153ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (136ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (769ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (535ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (390ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 2.11 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4346 unused Assets / (1.0 MB). Loaded Objects now: 4962.
+Memory consumption went from 113.3 MB to 112.2 MB.
+Total: 6.961900 ms (FindLiveObjects: 0.533400 ms CreateObjectMapping: 0.246500 ms MarkObjects: 4.864600 ms  DeleteObjects: 1.316500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.678 seconds
+Refreshing native plugins compatible for Editor in 2.24 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.766 seconds
+Domain Reload Profiling: 1440ms
+	BeginReloadAssembly (196ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (401ms)
+		LoadAssemblies (360ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (127ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (767ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (528ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (390ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 2.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4346 unused Assets / (0.8 MB). Loaded Objects now: 4964.
+Memory consumption went from 113.3 MB to 112.5 MB.
+Total: 6.754600 ms (FindLiveObjects: 0.628200 ms CreateObjectMapping: 0.230900 ms MarkObjects: 4.993900 ms  DeleteObjects: 0.900600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.658 seconds
+Refreshing native plugins compatible for Editor in 2.36 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.783 seconds
+Domain Reload Profiling: 1436ms
+	BeginReloadAssembly (203ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (371ms)
+		LoadAssemblies (343ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (129ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (117ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (784ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (550ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (407ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 2.66 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4346 unused Assets / (1.0 MB). Loaded Objects now: 4966.
+Memory consumption went from 113.3 MB to 112.3 MB.
+Total: 7.004000 ms (FindLiveObjects: 0.486100 ms CreateObjectMapping: 0.353100 ms MarkObjects: 5.048500 ms  DeleteObjects: 1.115300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
